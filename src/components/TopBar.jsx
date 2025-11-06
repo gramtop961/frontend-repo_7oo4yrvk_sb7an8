@@ -34,12 +34,12 @@ export default function TopBar() {
     <header className="sticky top-0 z-20 w-full border-b border-gray-200 bg-white/70 backdrop-blur dark:border-gray-800 dark:bg-gray-950/70">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3">
         <div className="flex items-center gap-3">
-          <div className="h-8 w-8 rounded-xl bg-gradient-to-tr from-indigo-500 via-fuchsia-500 to-amber-500" />
+          <div className="h-8 w-8 rounded-xl bg-gradient-to-tr from-[#702ABD] via-[#305FB3] to-[#2F7EC0]" />
           <span className="text-lg font-semibold tracking-tight text-gray-900 dark:text-gray-100">ScalingWolf AI</span>
         </div>
         <div className="flex items-center gap-2">
           <div className="mr-2 hidden items-center gap-1 rounded-full border border-gray-200 px-3 py-1 text-sm text-gray-700 dark:border-gray-800 dark:text-gray-300 md:flex">
-            <Coins className="h-4 w-4 text-amber-500" />
+            <Coins className="h-4 w-4 text-[#2F7EC0]" />
             <span>1,250</span>
           </div>
           <button
